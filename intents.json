@@ -1,0 +1,348 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "hey",
+                "Salam",
+                "How are you",
+                "Is anyone there",
+                "Hello",
+                "Good day",
+                "hey"
+            ],
+            "responses": [
+                "Hey :-)",
+                "heyyo",
+                "Hello, thanks for visiting",
+                "Salam apa yang boleh saya bantu?",
+                "Hi there, what can I do for you",
+                "Hi there, how can I help"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["See you later", "Thanks for visiting", "Have a nice day", "Bye! Come back again soon!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?"
+            ],
+            "responses": [
+                "Why did the psychologist bring a ladder to therapy? To help his patients reach new heights!",
+                "What did the Freudian slip say? You're not going to hear the end of this."
+            ]
+        },
+        {
+            "tag": "mental_health",
+            "patterns": [
+                "How can I improve my mental health?",
+                "Dealing with stress",
+                "Coping with anxiety",
+                "Tips for better mental well-being"
+            ],
+            "responses": [
+                "It's essential to take breaks and practice self-care.",
+                "Connecting with loved ones can positively impact your mental health.",
+                "Consider talking to a mental health professional for personalized support."
+            ]
+        },
+        {
+            "tag": "emotions",
+            "patterns": [
+                "How to manage my emotions?",
+                "Dealing with sadness",
+                "Overcoming anger",
+                "Expressing emotions"
+            ],
+            "responses": [
+                "Understanding your emotions is the first step. Journaling can help.",
+                "Deep breathing exercises can be effective in managing strong emotions.",
+                "Expressing your feelings through art or talking can be therapeutic."
+            ]
+        },
+        {
+            "tag": "self_discovery",
+            "patterns": [
+                "How can I learn more about myself?",
+                "Journey of self-discovery",
+                "Finding purpose in life",
+                "Building self-awareness"
+            ],
+            "responses": [
+                "Explore your interests and hobbies to discover more about yourself.",
+                "Setting personal goals can contribute to a sense of purpose.",
+                "Reflecting on your values and beliefs can aid in self-discovery."
+            ]
+        },
+        {
+            "tag": "psychological_support",
+            "patterns": [
+                "I'm feeling really down",
+                "I'm struggling with my mental health",
+                "Help me cope with depression",
+                "I'm anxious and don't know what to do"
+            ],
+            "responses": [
+                "I'm sorry to hear that you're feeling this way. It's important to reach out to friends, family, or a mental health professional for support.",
+                "You're not alone. Consider talking to someone you trust about your feelings, and don't hesitate to seek professional help.",
+                "Taking the first step to seek support is a brave decision. You might find it helpful to connect with a mental health counselor or therapist."
+            ]
+        },
+        {
+            "tag": "health_crisis",
+            "patterns": [
+                "I'm facing a health crisis",
+                "Dealing with a medical diagnosis",
+                "Coping with chronic illness",
+                "Health issues affecting mental well-being"
+            ],
+            "responses": [
+                "I'm sorry to hear about your health challenges. It's crucial to prioritize both your physical and mental well-being.",
+                "Coping with a health crisis can be overwhelming. Consider building a support network and seeking guidance from healthcare professionals.",
+                "Remember to take one step at a time. Managing your health crisis may involve seeking medical advice and emotional support from those around you."
+            ]
+        },
+        {
+            "tag": "panic_attack",
+            "patterns": [
+                "I'm having a panic attack right now",
+                "Help me with my panic attack",
+                "What should I do during a panic attack?",
+                "I'm feeling overwhelmed and anxious"
+            ],
+            "responses": [
+                "I'm here for you. Remember to focus on your breathing. Take slow, deep breaths to help calm your nervous system.",
+                "Find a quiet and safe space. If possible, sit or lie down, and try to ground yourself by feeling the surface beneath you.",
+                "If you have a grounding object or soothing scent, use it to help anchor yourself in the present moment.",
+                "Consider counting slowly or repeating a calming phrase to redirect your thoughts. You're not alone, and this will pass."
+            ]
+        },
+        {
+            "tag": "anger_management",
+            "patterns": [
+                "I'm feeling mad right now",
+                "Help me calm down from anger",
+                "What should I do when I'm angry?",
+                "Angry and need advice"
+            ],
+            "responses": [
+                "I understand that anger can be challenging. Take a moment to pause and breathe deeply to help calm your emotions.",
+                "Consider stepping away from the situation that's causing anger. Give yourself some space to cool down.",
+                "Physical activity, like a short walk or gentle exercise, can help release built-up tension and reduce anger.",
+                "Expressing your feelings through journaling or talking to someone you trust can be a healthy way to process and manage anger."
+            ]
+        },
+        {
+            "tag": "joy",
+            "patterns": [
+                "I'm experiencing joy",
+                "Help me celebrate joy",
+                "How to enhance feelings of joy?"
+            ],
+            "responses": [
+                "Fantastic! Joy is a beautiful emotion. Reflect on the sources of joy in your life and express gratitude for them.",
+                "Share your joy with others. Whether it's through laughter, conversation, or shared activities, spreading joy can be contagious.",
+                "Consider engaging in activities that consistently bring you joy. Cultivate a joyous mindset by focusing on positive aspects of your life."
+            ]
+        },
+        {
+            "tag": "happiness",
+            "patterns": [
+                "I want to feel happier",
+                "How to cultivate happiness",
+                "Tips for a happier life"
+            ],
+            "responses": [
+                "Happiness is a journey. Identify the things that bring you fulfillment and incorporate them into your daily life.",
+                "Connect with positive influences. Surround yourself with supportive people who contribute to your happiness.",
+                "Practice gratitude. Reflect on the positive aspects of your life and express appreciation for them."
+            ]
+        },
+        {
+            "tag": "amusement",
+            "patterns": [
+                "I need some amusement",
+                "Make me laugh",
+                "Entertain me"
+            ],
+            "responses": [
+                "Laughter is a great way to lighten the mood! Here's a joke for you: [Insert Joke].",
+                "Engage in activities that amuse you, whether it's watching a funny movie, reading a humorous book, or spending time with fun people.",
+                "Find joy in the simple pleasures. Sometimes, a good laugh is the best remedy for a lighthearted moment."
+            ]
+        },
+        {
+            "tag": "pride",
+            "patterns": [
+                "I'm feeling proud",
+                "How to embrace feelings of pride",
+                "Celebrate achievements with me"
+            ],
+            "responses": [
+                "Congratulations on your achievements! It's wonderful to feel proud of your accomplishments.",
+                "Take a moment to reflect on your journey and the hard work you've put in. You deserve to celebrate your success.",
+                "Share your pride with others. Whether it's with friends, family, or colleagues, acknowledging your achievements can inspire those around you."
+            ]
+        },
+        {
+            "tag": "awe",
+            "patterns": [
+                "I'm in awe",
+                "Help me appreciate awe-inspiring moments",
+                "How to cultivate a sense of awe"
+            ],
+            "responses": [
+                "Awe is a powerful emotion! Take the time to fully immerse yourself in the moment and appreciate the wonder around you.",
+                "Engage in activities that expose you to awe-inspiring experiences, whether it's nature, art, or exploration.",
+                "Share your sense of awe with others. Discussing and reflecting on awe-inspiring moments can deepen your appreciation."
+            ]
+        },
+        {
+            "tag": "excitement",
+            "patterns": [
+                "I'm excited!",
+                "How to sustain feelings of excitement",
+                "What activities bring excitement?"
+            ],
+            "responses": [
+                "Fantastic! Embrace the excitement and channel it into positive energy for your endeavors.",
+                "Explore activities that consistently bring you excitement and joy. Having passions in life can contribute to a fulfilling journey.",
+                "Share your excitement with others. Whether it's through shared experiences or expressing your enthusiasm, spreading positive vibes can enhance the excitement."
+            ]
+        },
+        {
+            "tag": "ecstasy",
+            "patterns": [
+                "I'm experiencing ecstasy",
+                "Help me savor ecstatic moments",
+                "How to prolong feelings of ecstasy"
+            ],
+            "responses": [
+                "Ecstasy is a profound emotion! Fully immerse yourself in the experience and savor every moment.",
+                "Reflect on the factors contributing to your ecstasy. Understanding what brings you joy can help you cultivate more of it in your life.",
+                "Share your ecstatic moments with others. Whether it's through storytelling or shared experiences, spreading joy can amplify the ecstasy."
+            ]
+        },
+        {
+            "tag": "lonely",
+            "patterns": [
+                "I'm feeling lonely",
+                "Help me cope with loneliness",
+                "Suggestions for overcoming loneliness"
+            ],
+            "responses": [
+                "I'm here for you. Loneliness can be challenging, but there are ways to connect with others and alleviate the feeling.",
+                "Reach out to friends or family for a chat or plan activities together. Social connections play a crucial role in combating loneliness.",
+                "Consider joining clubs or groups with shared interests. Building new connections can provide a sense of belonging and companionship."
+            ]
+        },
+        {
+            "tag": "unhappy",
+            "patterns": [
+                "I'm unhappy right now",
+                "Help me find happiness",
+                "Suggestions for improving my mood"
+            ],
+            "responses": [
+                "I'm sorry to hear that you're feeling this way. It's okay not to be okay. Let's explore ways to uplift your mood.",
+                "Engage in activities that usually bring you joy. Whether it's hobbies, music, or spending time with loved ones, focusing on positive experiences can improve your mood.",
+                "Consider talking to someone you trust about your feelings. Sometimes, expressing your emotions can be a helpful step towards feeling better."
+            ]
+        },
+        {
+            "tag": "hopeless",
+            "patterns": [
+                "I'm feeling hopeless",
+                "Help me find hope",
+                "Suggestions for regaining hope"
+            ],
+            "responses": [
+                "I'm here to support you. Feeling hopeless can be overwhelming, but there are ways to foster hope and resilience.",
+                "Identify small, achievable goals. Taking small steps can contribute to a sense of accomplishment and hope.",
+                "Consider talking to a mental health professional. They can provide guidance and support to help you navigate through challenging times."
+            ]
+        },
+        {
+            "tag": "gloomy",
+            "patterns": [
+                "I'm in a gloomy mood",
+                "Help me brighten my day",
+                "Suggestions for a mood lift"
+            ],
+            "responses": [
+                "I understand that gloomy days happen. Let's explore activities that can bring some brightness to your day.",
+                "Listen to uplifting music or watch something that makes you smile. Sometimes, a change in environment or entertainment can lift your mood.",
+                "Consider spending time in nature or engaging in activities that bring you a sense of peace. Connecting with positive experiences can help improve your mood."
+            ]
+        },
+        {
+            "tag": "miserable",
+            "patterns": [
+                "I'm feeling miserable",
+                "Help me cope with misery",
+                "Suggestions for finding relief"
+            ],
+            "responses": [
+                "I'm here to offer support. Feeling miserable is tough, but there are steps you can take to find relief.",
+                "Express your feelings. Whether through journaling or talking to someone you trust, acknowledging your emotions is an important first step.",
+                "Consider seeking professional help. A mental health professional can provide guidance and support tailored to your specific situation"
+            ]
+        },
+        
+                {
+                    "tag": "pleasure",
+                    "patterns": [
+                        "I'm feeling pleasure",
+                        "How to experience pleasure",
+                        "Ways to find joy",
+                        "I want to feel happy"
+                    ],
+                    "responses": [
+                        "That's wonderful! Engage in activities that bring you joy and fulfillment.",
+                        "Find pleasure in simple things around you, and take time to appreciate them.",
+                        "Connect with friends or loved ones to share moments of happiness."
+                    ]
+                },
+                {
+                    "tag": "joy",
+                    "patterns": [
+                        "I'm feeling joy",
+                        "How to cultivate joy",
+                        "Ways to spread happiness",
+                        "I want to experience joy"
+                    ],
+                    "responses": [
+                        "Embrace the moments of joy and savor them.",
+                        "Consider doing things that make you laugh or bring a smile to your face.",
+                        "Share your joy with others, and it might amplify the positive feelings."
+                    ]
+                },
+                {
+                    "tag": "interest",
+                    "patterns": [
+                        "I'm feeling interested",
+                        "Tell me something interesting",
+                        "How to stay interested in things",
+                        "I want to explore new interests"
+                    ],
+                    "responses": [
+                        "Curiosity is fantastic! Explore new topics or activities that pique your interest.",
+                        "Read books, watch documentaries, or attend events related to subjects that fascinate you.",
+                        "Connect with people who share similar interests and engage in meaningful discussions."
+                    ]
+                }
+            ]
+        }
+        

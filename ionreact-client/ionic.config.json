@@ -1,0 +1,7 @@
+{
+  "name": "ionreact-client",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

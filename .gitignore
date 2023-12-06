@@ -1,0 +1,8 @@
+#cache file
+__pycache__
+
+#environments
+venv
+venv/
+env
+
