@@ -1,5 +1,5 @@
 import nltk 
-# nltk.download('punkt', quite=True)
+# nltk.download('punkt', quiet=True)
 import numpy as np
 from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
@@ -7,9 +7,11 @@ stemmer = PorterStemmer()
 def tokenize(sentence):
     return nltk.word_tokenize(sentence)
 
+# define method for stemming
 def stem(word):
     return stemmer.stem(word.lower())
 
+# define bag or words(apply token session first, with all words)
 def bag_of_words(tokenized_sentence, all_words):
     """
     sentence = ["hell0", "how", "are", "you"]
